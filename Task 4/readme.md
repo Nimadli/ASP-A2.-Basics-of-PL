@@ -2,7 +2,8 @@
 
 ## 1. Source Image
 
-<img width="612" height="408" alt="sample" src="https://github.com/user-attachments/assets/5c04e46c-ab99-467e-ba3a-865c66acbc39" />
+<img width="612" height="408" alt="sample" src="https://github.com/user-attachments/assets/cc737006-dfe4-42e0-a62a-c4b79b259bd5" />
+
 
 
 ---
@@ -11,12 +12,12 @@
 
 **Python Output (`sliced_output_rgb.jpg`)**
 
-<img width="300" height="300" alt="sliced_output_rgb" src="https://github.com/user-attachments/assets/816e6bc2-6408-4597-9b71-08d56651713b" />
+<img width="300" height="300" alt="sliced_output_rgb" src="https://github.com/user-attachments/assets/73393dec-8f79-41ec-9583-4f49fc485023" />
+
 
 **Java Output (`slicedImage.jpg`)**
 
-
-<img width="300" height="300" alt="slicedImage" src="https://github.com/user-attachments/assets/ef30eacb-9a15-41d6-81c7-9d5cfaf1a5a1" />
+<img width="300" height="300" alt="slicedImage" src="https://github.com/user-attachments/assets/bdd51e4c-6e15-4b0c-adb9-036cdafbcc42" />
 
 ---
 
