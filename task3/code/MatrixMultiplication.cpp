@@ -40,10 +40,12 @@ Matrix createRandomMatrix(int rows, int cols) {
 }
 
 int main() {
-    int N = 1000;
+    int N, M, K;
+    cout << "Input matrix dimensions N, M, K: \n";
+    cin >> N >> M >> K;
 
-    Matrix A = createRandomMatrix(N, N);
-    Matrix B = createRandomMatrix(N, N);
+    Matrix A = createRandomMatrix(N, M);
+    Matrix B = createRandomMatrix(M, K);
 
     auto start = chrono::high_resolution_clock::now();
 
@@ -52,7 +54,7 @@ int main() {
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> duration = end - start;
 
-    cout << duration.count() << " seconds for 1000x1000 matrices\n";
+    cout << duration.count() << " seconds for " << N << 'x' << M << " and " << M << 'x' << K << " matrices\n";
 
     // Unit test
     A = {{1, 2, 3}, {4, 5, 6}};
