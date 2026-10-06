@@ -20,4 +20,4 @@
 
 ---
 
-It can be seen from the images that the resulting images are the same for Java and Python. Both images take the slice of pixels from 100 to 400 for the row and 150 to 450 for the column. C++ was omitted because it lacks a built-in naative image library. Handling formats like JPEG or PNG in pure C++ requires either heavy external libraries or third-party decoders. Java, on the other hand, has BufferedImage which is built into it.
+It can be seen from the images that the resulting images are the same for Java and Python. Both images take the slice of pixels from 100 to 400 for the row and 150 to 450 for the column. C++ was omitted because it lacks a built-in native image library. Handling formats like JPEG or PNG in pure C++ requires either heavy external libraries or third-party decoders. Java, on the other hand, has `BufferedImage` which is built into it.
