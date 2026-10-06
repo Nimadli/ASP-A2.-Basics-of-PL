@@ -163,6 +163,6 @@ if __name__ == "__main__":
     benchmark_numpy_multiplication()
 ```
 
-The above code has been written by AI. It has given the output in milliseconds instead of seconds which might be more suitable for comparing the efficiencies of both programs. The AI gave the user the option of choosing the sizes themselves and later generate random matrices based on those sizes. I did not implement user-based input because I wanted to use custom matrices and see the results for myself. However, the user can change the variable N in code to test the program on randomly generated square matrices of chosen size.
+The above code has been written by AI. It has given the output in milliseconds instead of seconds which might be more suitable for comparing the efficiencies of both programs. The AI gave the user the option of choosing the sizes themselves and later generate random matrices based on those sizes.
 
 AI also changed the order of loops in C++ program to make the memory access faster which was very nice and something that I did not implement in my original code. No custom prompt was given to AI other than providing the problem statement.
