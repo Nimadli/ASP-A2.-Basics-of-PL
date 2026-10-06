@@ -1,11 +1,11 @@
 import numpy as np
 import time
 
-N = 1000
+N, M, K = map(int, input("Enter matrix dimensions N, M, K: ").split())
 
 np.random.seed(0)
-A = np.random.rand(N, N)
-B = np.random.rand(N, N)
+A = np.random.rand(N, M)
+B = np.random.rand(M, K)
 
 start = time.perf_counter()
 
@@ -13,7 +13,7 @@ C = A @ B
 
 end = time.perf_counter()
 
-print(f"{end - start:.4f} seconds for 1000x1000 matrices")
+print(f"{end - start:.4f} seconds for {N}x{M} and {M}x{K} matrices")
 
 # Unit test
 A = np.array([[1, 2, 3], [4, 5, 6]])
